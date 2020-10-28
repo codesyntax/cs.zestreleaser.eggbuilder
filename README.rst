@@ -28,64 +28,13 @@
 cs.zestreleaser.eggbuilder
 ==========================
 
-Tell me what your product does
+Create egg files if the user wants
 
-Features
---------
+We have a client that uses some old deployment scripts that needs *.egg files to complete
+the deployment.
 
-- Can be bullet points
-
-
-Examples
---------
-
-This add-on can be seen in action at the following sites:
-- Is there a page on the internet where everybody can see the features?
-
-
-Documentation
--------------
-
-Full documentation for end users can be found in the "docs" folder, and is also available online at http://docs.plone.org/foo/bar
-
-
-Translations
-------------
-
-This product has been translated into
-
-- Klingon (thanks, K'Plai)
-
-
-Installation
-------------
-
-Install cs.zestreleaser.eggbuilder by adding it to your buildout::
-
-    [buildout]
-
-    ...
-
-    eggs =
-        cs.zestreleaser.eggbuilder
-
-
-and then running ``bin/buildout``
-
-
-Contribute
-----------
-
-- Issue Tracker: https://github.com/collective/cs.zestreleaser.eggbuilder/issues
-- Source Code: https://github.com/collective/cs.zestreleaser.eggbuilder
-- Documentation: https://docs.plone.org/foo/bar
-
-
-Support
--------
-
-If you are having issues, please let us know.
-We have a mailing list located at: project@example.com
+So using this zest.releaser plugin we can build egg files automatically for the package
+we are relasing.
 
 
 License
