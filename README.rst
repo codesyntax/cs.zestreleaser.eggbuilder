@@ -31,7 +31,7 @@ cs.zestreleaser.eggbuilder
 
 Create egg files if the user wants
 
-We have a client that uses some old deployment scripts that needs *.egg files to complete
+We have a client that uses some old deployment scripts that needs \*.egg files to complete
 the deployment.
 
 So using this zest.releaser plugin we can build egg files automatically for the package
