@@ -2,8 +2,8 @@ Changelog
 =========
 
 
-1.1 (unreleased)
-----------------
+1.0.1 (2020-10-29)
+------------------
 
 - Fix readme markup.
   [erral]
