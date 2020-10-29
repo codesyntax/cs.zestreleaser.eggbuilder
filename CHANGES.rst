@@ -5,7 +5,8 @@ Changelog
 1.1 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Fix readme markup.
+  [erral]
 
 
 1.0 (2020-10-28)
